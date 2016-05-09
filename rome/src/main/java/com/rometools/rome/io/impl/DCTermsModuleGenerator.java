@@ -20,10 +20,14 @@ package com.rometools.rome.io.impl;
 import com.rometools.rome.feed.module.DCSubject;
 import com.rometools.rome.feed.module.DCTermsModule;
 import com.rometools.rome.feed.module.Module;
+import com.rometools.rome.io.ModuleGenerator;
+
 import com.rometools.utils.Lists;
+import org.jdom2.Attribute;
 import org.jdom2.Element;
 import org.jdom2.Namespace;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashSet;
@@ -31,11 +35,11 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 
-public class DCTermsModuleGenerator extends DCModuleGenerator {
+public class DCTermsModuleGenerator implements ModuleGenerator {
     private static final String TAXO_URI = "http://purl.org/rss/1.0/modules/taxonomy/";
     private static final String RDF_URI = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 
-    private static final Namespace DC_NS = Namespace.getNamespace("dc", DCTermsModule.URI);
+    private static final Namespace DC_NS = Namespace.getNamespace("dcterms", DCTermsModule.URI);
     private static final Namespace TAXO_NS = Namespace.getNamespace("taxo", TAXO_URI);
     private static final Namespace RDF_NS = Namespace.getNamespace("rdf", RDF_URI);
 
@@ -49,6 +53,17 @@ public class DCTermsModuleGenerator extends DCModuleGenerator {
         NAMESPACES = Collections.unmodifiableSet(nss);
     }
 
+    private Namespace getDCNamespace() {
+        return DC_NS;
+    }
+
+    private Namespace getRDFNamespace() {
+        return RDF_NS;
+    }
+
+    private Namespace getTaxonomyNamespace() {
+        return TAXO_NS;
+    }
 
     @Override
     public String getNamespaceUri() {
@@ -143,6 +158,44 @@ public class DCTermsModuleGenerator extends DCModuleGenerator {
         addStringIfNotEmpty(element, "valid", dcModule.getValidList());
     }
 
+    /**
+     * Utility method to generate an element for a subject.
+     * <p>
+     *
+     * @param subject the subject to generate an element for.
+     * @return the element for the subject.
+     */
+    protected Element generateSubjectElement(final DCSubject subject) {
+
+        final Element subjectElement = new Element("subject", getDCNamespace());
+
+        final String taxonomyUri = subject.getTaxonomyUri();
+        final String value = subject.getValue();
+
+        if (taxonomyUri != null) {
+
+            final Attribute resourceAttribute = new Attribute("resource", taxonomyUri, getRDFNamespace());
+
+            final Element topicElement = new Element("topic", getTaxonomyNamespace());
+            topicElement.setAttribute(resourceAttribute);
+
+            final Element descriptionElement = new Element("Description", getRDFNamespace());
+            descriptionElement.addContent(topicElement);
+
+            if (value != null) {
+                final Element valueElement = new Element("value", getRDFNamespace());
+                valueElement.addContent(value);
+                descriptionElement.addContent(valueElement);
+            }
+
+            subjectElement.addContent(descriptionElement);
+
+        } else {
+            subjectElement.addContent(value);
+        }
+
+        return subjectElement;
+    }
 
     protected void addStringIfNotEmpty(final Element element, final String elementName, final List<String> theList) {
         if (Lists.isNotEmpty(theList)) {
@@ -157,5 +210,33 @@ public class DCTermsModuleGenerator extends DCModuleGenerator {
             }
         }
     }
+    /**
+     * Utility method to generate a single element containing a string.
+     * <p>
+     *
+     * @param name the name of the elment to generate.
+     * @param value the value of the text in the element.
+     * @return the element generated.
+     */
+    protected Element generateSimpleElement(final String name, final String value) {
+        final Element element = new Element(name, getDCNamespace());
+        element.addContent(value);
+        return element;
+    }
 
+    /**
+     * Utility method to generate a list of simple elements.
+     * <p>
+     *
+     * @param name the name of the element list to generate.
+     * @param values the list of values for the elements.
+     * @return a list of Elements created.
+     */
+    protected List<Element> generateSimpleElementList(final String name, final List<String> values) {
+        final List<Element> elements = new ArrayList<Element>();
+        for (final String value : values) {
+            elements.add(generateSimpleElement(name, value));
+        }
+        return elements;
+    }
 }
