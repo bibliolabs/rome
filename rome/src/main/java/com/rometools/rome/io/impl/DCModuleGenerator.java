@@ -61,19 +61,19 @@ public class DCModuleGenerator implements ModuleGenerator {
     }
 
     @Override
-    public final String getNamespaceUri() {
+    public String getNamespaceUri() {
         return DC_URI;
     }
 
-    private final Namespace getDCNamespace() {
+    private Namespace getDCNamespace() {
         return DC_NS;
     }
 
-    private final Namespace getRDFNamespace() {
+    private Namespace getRDFNamespace() {
         return RDF_NS;
     }
 
-    private final Namespace getTaxonomyNamespace() {
+    private Namespace getTaxonomyNamespace() {
         return TAXO_NS;
     }
 
@@ -87,7 +87,7 @@ public class DCModuleGenerator implements ModuleGenerator {
      * @return a set with all the URIs this module generator uses.
      */
     @Override
-    public final Set<Namespace> getNamespaces() {
+    public Set<Namespace> getNamespaces() {
         return NAMESPACES;
     }
 
@@ -99,7 +99,7 @@ public class DCModuleGenerator implements ModuleGenerator {
      * @param element the root element to attach child elements to.
      */
     @Override
-    public final void generate(final Module module, final Element element) {
+    public void generate(final Module module, final Element element) {
 
         final DCModule dcModule = (DCModule) module;
 
@@ -189,7 +189,7 @@ public class DCModuleGenerator implements ModuleGenerator {
      * @param subject the subject to generate an element for.
      * @return the element for the subject.
      */
-    protected final Element generateSubjectElement(final DCSubject subject) {
+    protected Element generateSubjectElement(final DCSubject subject) {
 
         final Element subjectElement = new Element("subject", getDCNamespace());
 
@@ -229,7 +229,7 @@ public class DCModuleGenerator implements ModuleGenerator {
      * @param value the value of the text in the element.
      * @return the element generated.
      */
-    protected final Element generateSimpleElement(final String name, final String value) {
+    protected Element generateSimpleElement(final String name, final String value) {
         final Element element = new Element(name, getDCNamespace());
         element.addContent(value);
         return element;
@@ -243,7 +243,7 @@ public class DCModuleGenerator implements ModuleGenerator {
      * @param values the list of values for the elements.
      * @return a list of Elements created.
      */
-    protected final List<Element> generateSimpleElementList(final String name, final List<String> values) {
+    protected List<Element> generateSimpleElementList(final String name, final List<String> values) {
         final List<Element> elements = new ArrayList<Element>();
         for (final String value : values) {
             elements.add(generateSimpleElement(name, value));

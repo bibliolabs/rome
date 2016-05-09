@@ -45,19 +45,19 @@ public class DCModuleParser implements ModuleParser {
     private static final Namespace TAXO_NS = Namespace.getNamespace(TAXO_URI);
 
     @Override
-    public final String getNamespaceUri() {
+    public String getNamespaceUri() {
         return DCModule.URI;
     }
 
-    private final Namespace getDCNamespace() {
+    private Namespace getDCNamespace() {
         return DC_NS;
     }
 
-    private final Namespace getRDFNamespace() {
+    private Namespace getRDFNamespace() {
         return RDF_NS;
     }
 
-    private final Namespace getTaxonomyNamespace() {
+    private Namespace getTaxonomyNamespace() {
         return TAXO_NS;
     }
 
@@ -180,7 +180,7 @@ public class DCModuleParser implements ModuleParser {
      * @param desc the taxonomy description element.
      * @return the string contained in the resource of the element.
      */
-    protected final String getTaxonomy(final Element desc) {
+    protected String getTaxonomy(final Element desc) {
         String taxonomy = null;
         final Element topic = desc.getChild("topic", getTaxonomyNamespace());
         if (topic != null) {
@@ -199,7 +199,7 @@ public class DCModuleParser implements ModuleParser {
      * @param eList the element list to parse.
      * @return a list of subjects parsed from the elements.
      */
-    protected final List<DCSubject> parseSubjects(final List<Element> eList) {
+    protected List<DCSubject> parseSubjects(final List<Element> eList) {
 
         final List<DCSubject> subjects = new ArrayList<DCSubject>();
 
@@ -238,7 +238,7 @@ public class DCModuleParser implements ModuleParser {
      * @param elements the list of elements to parse.
      * @return the list of strings
      */
-    protected final List<String> parseElementList(final List<Element> elements) {
+    protected List<String> parseElementList(final List<Element> elements) {
         final List<String> values = new ArrayList<String>();
         for (final Element element : elements) {
             values.add(element.getText());
@@ -253,7 +253,7 @@ public class DCModuleParser implements ModuleParser {
      * @param elements the list of elements to parse.
      * @return the list of dates.
      */
-    protected final List<Date> parseElementListDate(final List<Element> elements, final Locale locale) {
+    protected List<Date> parseElementListDate(final List<Element> elements, final Locale locale) {
         final List<Date> values = new ArrayList<Date>();
         for (final Element element : elements) {
             values.add(DateParser.parseDate(element.getText(), locale));
