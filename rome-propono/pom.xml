@@ -5,7 +5,11 @@
     <parent>
         <groupId>com.rometools</groupId>
         <artifactId>rome-parent</artifactId>
+<<<<<<< HEAD
         <version>1.7.0-BB</version>
+=======
+        <version>1.6.1</version>
+>>>>>>> [maven-release-plugin] prepare release 1.6.1
     </parent>
 
     <artifactId>rome-propono</artifactId>
