@@ -1,15 +1,18 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rometools</groupId>
     <artifactId>rome-parent</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <version>1.7.0-BB</version>
 =======
     <version>1.7.0-SNAPSHOT</version>
 >>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+    <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
     <packaging>pom</packaging>
 
     <modules>
@@ -42,7 +45,7 @@
         <connection>scm:git:ssh://github.com/rometools/rome.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/rometools/rome.git</developerConnection>
         <url>https://github.com/rometools/rome</url>
-        <tag>HEAD</tag>
+        <tag>1.7.0</tag>
     </scm>
 
     <developers>
@@ -262,73 +265,105 @@
                 <groupId>com.rometools</groupId>
                 <artifactId>rome</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
 >>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+                <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-certiorem</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
 >>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+                <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-certiorem-webapp</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
 >>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+                <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-fetcher</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
 >>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+                <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-modules</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
 >>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+                <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-opml</artifactId>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
 >>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+                <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-propono</artifactId>
 <<<<<<< HEAD
-                <version>1.7.0-BB</version>
-=======
-                <version>1.7.0-SNAPSHOT</version>
->>>>>>> [maven-release-plugin] prepare for next development iteration
-            </dependency>
-            <dependency>
-                <groupId>com.rometools</groupId>
-                <artifactId>rome-utils</artifactId>
 <<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
 >>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+                <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
+            </dependency>
+            <dependency>
+                <groupId>com.rometools</groupId>
+                <artifactId>rome-utils</artifactId>
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <version>1.7.0-BB</version>
+=======
+                <version>1.7.0-SNAPSHOT</version>
+>>>>>>> [maven-release-plugin] prepare for next development iteration
+=======
+                <version>1.7.0</version>
+>>>>>>> [maven-release-plugin] prepare release 1.7.0
             </dependency>
             <!-- JDOM -->
             <dependency>
