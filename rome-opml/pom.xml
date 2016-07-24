@@ -7,6 +7,7 @@
         <artifactId>rome-parent</artifactId>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <version>1.7.0-BB</version>
 =======
         <version>1.7.0-SNAPSHOT</version>
@@ -14,6 +15,9 @@
 =======
         <version>1.7.0</version>
 >>>>>>> [maven-release-plugin] prepare release 1.7.0
+=======
+        <version>1.7.1-SNAPSHOT</version>
+>>>>>>> [maven-release-plugin] prepare for next development iteration
     </parent>
 
     <artifactId>rome-opml</artifactId>
