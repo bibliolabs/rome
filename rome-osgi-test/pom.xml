@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <version>1.7.0-BB</version>
 =======
         <version>1.7.0-SNAPSHOT</version>
@@ -34,6 +35,9 @@
 =======
         <version>1.7.3-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.3-SNAPSHOT
+=======
+        <version>1.7.3</version>
+>>>>>>> Updates version to 1.7.3
     </parent>
 
     <artifactId>rome-osgi-test</artifactId>
