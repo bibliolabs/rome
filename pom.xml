@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <version>1.7.0-BB</version>
 =======
     <version>1.7.0-SNAPSHOT</version>
@@ -42,6 +43,9 @@
 =======
     <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+    <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
     <packaging>pom</packaging>
 
     <modules>
@@ -272,6 +276,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -300,6 +305,9 @@
 =======
                 <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+                <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -313,6 +321,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -341,6 +350,9 @@
 =======
                 <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+                <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -354,6 +366,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -382,6 +395,9 @@
 =======
                 <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+                <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -395,6 +411,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -423,6 +440,9 @@
 =======
                 <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+                <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -436,6 +456,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -464,6 +485,9 @@
 =======
                 <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+                <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -477,6 +501,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -505,6 +530,9 @@
 =======
                 <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+                <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -518,6 +546,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -546,6 +575,9 @@
 =======
                 <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+                <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -559,6 +591,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -587,6 +620,9 @@
 =======
                 <version>1.7.4-SNAPSHOT</version>
 >>>>>>> Updates version to 1.7.4-SNAPSHOT
+=======
+                <version>1.7.4</version>
+>>>>>>> Updates version to 1.7.4
             </dependency>
             <!-- JDOM -->
             <dependency>
