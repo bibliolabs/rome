@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <version>1.7.0-BB</version>
 =======
         <version>1.7.0-SNAPSHOT</version>
@@ -62,6 +63,9 @@
 =======
         <version>1.8.1</version>
 >>>>>>> Updates version to 1.8.1
+=======
+        <version>1.8.2-SNAPSHOT</version>
+>>>>>>> Updates version to 1.8.2-SNAPSHOT
     </parent>
 
     <artifactId>rome-opml</artifactId>
