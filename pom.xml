@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <version>1.7.0-BB</version>
 =======
     <version>1.7.0-SNAPSHOT</version>
@@ -70,6 +71,9 @@
 =======
     <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+    <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
     <packaging>pom</packaging>
 
     <modules>
@@ -313,6 +317,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -362,6 +367,9 @@
 =======
                 <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+                <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -382,6 +390,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -431,6 +440,9 @@
 =======
                 <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+                <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -451,6 +463,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -500,6 +513,9 @@
 =======
                 <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+                <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -520,6 +536,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -569,6 +586,9 @@
 =======
                 <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+                <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -589,6 +609,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -638,6 +659,9 @@
 =======
                 <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+                <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -658,6 +682,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -707,6 +732,9 @@
 =======
                 <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+                <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -727,6 +755,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -776,6 +805,9 @@
 =======
                 <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+                <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
@@ -796,6 +828,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <version>1.7.0-BB</version>
 =======
                 <version>1.7.0-SNAPSHOT</version>
@@ -845,6 +878,9 @@
 =======
                 <version>1.9.0</version>
 >>>>>>> Updates version to 1.9.0
+=======
+                <version>1.9.1-SNAPSHOT</version>
+>>>>>>> Updates version to 1.9.1-SNAPSHOT
             </dependency>
             <!-- JDOM -->
             <dependency>
