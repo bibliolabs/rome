@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <version>1.7.0-BB</version>
 =======
         <version>1.6.1</version>
@@ -70,6 +71,9 @@
 =======
         <version>1.8.2-SNAPSHOT</version>
 >>>>>>> Updates version to 1.8.2-SNAPSHOT
+=======
+        <version>1.9.0</version>
+>>>>>>> Updates version to 1.9.0
     </parent>
 
     <artifactId>rome-propono</artifactId>
